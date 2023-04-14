@@ -5,7 +5,7 @@ module.exports = {
     extend: {},
     colors: {
       violet: 'hsl(263, 55%, 52%)',
-      white: 'hsl(0, 0%, 90%)',
+      white: 'hsl(0, 0%, 100%)',
       danielring: 'hsl(263,55%, 67%)',
       bg: 'hsl(0, 0%, 81%)',
       grayblue: 'hsl(217, 19%, 35%)',

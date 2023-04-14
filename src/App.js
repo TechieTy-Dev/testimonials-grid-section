@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App bg-white w-100 grid lg:grid-cols-4 lg:grid-rows-2  lg:justify-center lg:align-middle lg:p-28 lg:gap-8 h-auto lg:h-[100vh]">
+    <div className="App bg-lightgray w-100 grid lg:grid-cols-4 lg:grid-rows-2  lg:justify-center lg:align-middle lg:p-28 lg:gap-8 h-auto lg:h-[100vh]">
 {/* DANIEL'S CARD */}
       <div className='bg-violet flex flex-col w-[80%] mx-auto rounded-lg purple-card my-8  shadow-xl lg:col-span-2 lg:w-[100%] lg:m-0'>
         <div className="flex z-10 mb-2 ml-8 mt-6 items-center ">
@@ -51,7 +51,7 @@ function App() {
   </div>
 {/* END OF SECOND CARD */}
 {/* JEANETTE'S CARD */}
-<div className=' bg-lightgray flex flex-col w-[80%] mx-auto rounded-lg mb-8 shadow-xl lg:row-start-2 lg:col-span-1 lg:m-0 lg:w-[100%]'>
+<div className=' bg-white flex flex-col w-[80%] mx-auto rounded-lg mb-8 shadow-xl lg:row-start-2 lg:col-span-1 lg:m-0 lg:w-[100%]'>
   <div className='flex z-10 mb-2 ml-8 mt-6 items-center'>
     <img src={Jeanette} alt="Jeanette" className="w-8 h-8 mr-4 rounded-full border-2 border-lightgray" />
     <div className='flex flex-col justify-center text-left'>
@@ -98,7 +98,7 @@ function App() {
   </div>
 {/* END OF FOURTH CARD */}
 {/* KIRA'S CARD */}
-<div className=' bg-lightgray flex flex-col w-[80%] mx-auto rounded-lg mb-8 shadow-xl lg:row-span-2 lg:m-0 lg:col-start-4 lg:w-[88%]'>
+<div className=' bg-white flex flex-col w-[80%] mx-auto rounded-lg mb-8 shadow-xl lg:row-span-2 lg:m-0 lg:col-start-4 lg:w-[88%]'>
   <div className=" items-center flex z-10 mb-2 ml-8 mt-6">
     <img className="w-8 h-8 mr-4 rounded-full border-2 border-lightgray" src={Kira} alt="Kira Avatar" />
     <div className='flex flex-col justify-center text-left'>
